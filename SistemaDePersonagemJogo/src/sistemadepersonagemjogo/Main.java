@@ -16,5 +16,11 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+    //instanciar os objetos
+    Personagem p1 =new Personagem("Giovanna", 100, 200);
+    p1.mostrarStatus();
+    p1.atacar();
+
     
 }
+
