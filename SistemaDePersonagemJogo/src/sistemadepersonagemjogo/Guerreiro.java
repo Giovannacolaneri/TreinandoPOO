@@ -13,6 +13,7 @@ public class Guerreiro extends Personagem{
     //Atributos especificos da subclasse
     private String arma;
 
+    //construtor
     public Guerreiro(String arma, String nome, int nivel, int vida) {
         super(nome, nivel, vida);
         this.arma = arma;

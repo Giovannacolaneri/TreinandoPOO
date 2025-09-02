@@ -11,7 +11,7 @@ package sistemadepersonagemjogo;
 public class Personagem {
 
     //atributos
-    String nome;
+    private String nome;
     private int nivel;
     private int vida;
 
@@ -22,7 +22,7 @@ public class Personagem {
         this.vida = vida;
     }
     
-    private
+    
     //metodos comuns
     public void atacar(){
        System.out.println(nome +" atacou");
